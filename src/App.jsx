@@ -194,7 +194,7 @@ const App = () => {
                     <AnimatedSection direction="left" delay={0.2}>
                         <div className="flex items-center space-x-2">
                             <div className="w-8 h-8 flex items-center justify-center">
-                                <img src="/logo.png" alt="" />
+                                <img src="logo.png" alt="" />
                             </div>
                             <span className="text-white font-[500] text-xl">Elevate</span>
                         </div>
@@ -218,7 +218,7 @@ const App = () => {
                     style={{
                         backgroundImage: `
                             linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-                            url('/background.png'),
+                            url('background.png'),
                             url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'><defs><pattern id='diagonals' patternUnits='userSpaceOnUse' width='4' height='4'><path d='M0,4 l4,-4 M-1,1 l2,-2 M3,5 l2,-2' stroke='%23333' stroke-width='0.5'/></pattern></defs><rect width='100%' height='100%' fill='%23222'/><rect width='100%' height='100%' fill='url(%23diagonals)' opacity='0.3'/></svg>")
                         `
                     }}
@@ -371,7 +371,7 @@ const App = () => {
                             style={{
                                 backgroundImage: `
                                     linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-                                    url('/urbanToSuburban.png'),
+                                    url('urbanToSuburban.png'),
                                     url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'><defs><pattern id='diagonals' patternUnits='userSpaceOnUse' width='4' height='4'><path d='M0,4 l4,-4 M-1,1 l2,-2 M3,5 l2,-2' stroke='%23333' stroke-width='0.5'/></pattern></defs><rect width='100%' height='100%' fill='%23222'/><rect width='100%' height='100%' fill='url(%23diagonals)' opacity='0.3'/></svg>")
                                 `
                             }}
@@ -456,7 +456,7 @@ const App = () => {
                                         style={{
                                             backgroundImage: `
                                                 linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-                                                url('/discover.png'),
+                                                url('discover.png'),
                                                 url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'><defs><pattern id='diagonals' patternUnits='userSpaceOnUse' width='4' height='4'><path d='M0,4 l4,-4 M-1,1 l2,-2 M3,5 l2,-2' stroke='%23333' stroke-width='0.5'/></pattern></defs><rect width='100%' height='100%' fill='%23222'/><rect width='100%' height='100%' fill='url(%23diagonals)' opacity='0.3'/></svg>")
                                             `
                                         }}
@@ -482,7 +482,7 @@ const App = () => {
                                 <div>
                                     <div className="flex items-center space-x-2 mb-8">
                                         <div className="w-16 h-16 flex items-center justify-center">
-                                            <img src="/logo.png" alt="" />
+                                            <img src="logo.png" alt="" />
                                         </div>
                                         <span className="font-[500] text-4xl">Elevate</span>
                                     </div>
