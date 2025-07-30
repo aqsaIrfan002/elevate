@@ -195,8 +195,8 @@ const App = () => {
                 <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-36">
                     <AnimatedSection direction="left" delay={0.2}>
                         <div className="flex items-center space-x-2">
-                            <div className="w-6 h-6 md:w-8 md:h-8 flex items-center justify-center">
-                                <img src="logo.png" alt="" />
+                            <div className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center flex-shrink-0">
+                                <img src="logo.png" alt="Elevate Logo" className="w-full h-full object-contain" />
                             </div>
                             <span className="text-white font-[500] text-lg md:text-xl">Elevate</span>
                         </div>
@@ -227,7 +227,7 @@ const App = () => {
                 />
 
                 <div className="relative z-10 text-left text-white max-w-7xl mx-auto flex items-center">
-                    <div className="grid lg:grid-rows-1 items-start gap-8 md:gap-12 pt-42 px-6 md:px-36">
+                    <div className="grid lg:grid-rows-1 items-start gap-8 md:gap-12 pt-36 md:pt-42 px-6 md:px-36">
                         <div>
                             <AnimatedText
                                 className="text-4xl sm:text-5xl lg:text-4xl xl:text-5xl font-[300] leading-tight tracking-tight mb-4 md:mb-6" // Changed text-2xl to text-3xl, added sm:text-4xl
